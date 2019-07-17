@@ -1,0 +1,11 @@
+DotNet_LoadVBcode OK
+2) DotNet_LoadVBcode (method error).au3(13): ==> COM Error intercepted!
+	Err.number is: 		0x80020006
+	Err.windescription:	Unknown name.
+	Err.description is: 	
+	Err.source is: 		
+	Err.helpfile is: 	
+	Err.helpcontext is: 	
+	Err.lastdllerror is: 	0
+	Err.scriptline is: 	13
+	Err.retcode is: 	0x00000000

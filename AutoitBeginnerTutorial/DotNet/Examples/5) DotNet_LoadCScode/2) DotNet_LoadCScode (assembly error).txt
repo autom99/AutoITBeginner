@@ -1,0 +1,4 @@
+Line: 1
+Column: 14
+CS0234: The type or namespace name 'Windows' does not exist in the namespace 'System' (are you missing an assembly reference?)
+DotNet_LoadCScode ERR
