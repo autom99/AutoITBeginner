@@ -1,0 +1,253 @@
+[1569487658.160][INFO]: Starting ChromeDriver 77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442})
+[1569487658.176][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1569487658.898][INFO]: [8409eb3afa1f48ae5e3b59573e244139] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "goog:chromeOptions": {
+            "w3c": true
+         }
+      }
+   }
+}
+[1569487658.937][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1569487658.955][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1569487659.084][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\Tester2\AppData\Local\Temp\scoped_dir11796_1738848962\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Tester2\AppData\Local\Temp\scoped_dir11796_2110881457" data:,
+[1569487661.911][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1569487662.962][INFO]: [8409eb3afa1f48ae5e3b59573e244139] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "77.0.3865.90",
+      "chrome": {
+         "chromedriverVersion": "77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442})",
+         "userDataDir": "C:\\Users\\Tester2\\AppData\\Local\\Temp\\scoped_dir11796_2110881457"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:51353"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows nt",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify"
+   },
+   "sessionId": "8409eb3afa1f48ae5e3b59573e244139"
+}
+[1569487663.104][INFO]: [8409eb3afa1f48ae5e3b59573e244139] COMMAND Navigate {
+   "url": "http://google.com"
+}
+[1569487663.104][INFO]: Waiting for pending navigations...
+[1569487663.109][INFO]: Done waiting for pending navigations. Status: ok
+[1569487664.613][INFO]: Waiting for pending navigations...
+[1569487666.338][INFO]: Done waiting for pending navigations. Status: ok
+[1569487666.338][INFO]: [8409eb3afa1f48ae5e3b59573e244139] RESPONSE Navigate
+[1569487666.347][INFO]: [8409eb3afa1f48ae5e3b59573e244139] COMMAND GetWindows {
+
+}
+[1569487666.357][INFO]: [8409eb3afa1f48ae5e3b59573e244139] RESPONSE GetWindows [ "CDwindow-663689498DC92FD70F64349F8D67C22E" ]
+[1569487666.366][INFO]: [8409eb3afa1f48ae5e3b59573e244139] COMMAND GetWindow {
+
+}
+[1569487666.366][INFO]: [8409eb3afa1f48ae5e3b59573e244139] RESPONSE GetWindow "CDwindow-663689498DC92FD70F64349F8D67C22E"
+[1569487666.374][INFO]: [8409eb3afa1f48ae5e3b59573e244139] COMMAND ExecuteScript {
+   "args": [ "", "" ],
+   "script": "window.open(arguments[0], '', arguments[1])"
+}
+[1569487666.374][INFO]: Waiting for pending navigations...
+[1569487666.376][INFO]: Done waiting for pending navigations. Status: ok
+[1569487666.422][INFO]: Waiting for pending navigations...
+[1569487666.437][INFO]: Done waiting for pending navigations. Status: ok
+[1569487666.437][INFO]: [8409eb3afa1f48ae5e3b59573e244139] RESPONSE ExecuteScript null
+[1569487666.449][INFO]: [8409eb3afa1f48ae5e3b59573e244139] COMMAND GetWindows {
+
+}
+[1569487666.451][INFO]: [8409eb3afa1f48ae5e3b59573e244139] RESPONSE GetWindows [ "CDwindow-663689498DC92FD70F64349F8D67C22E", "CDwindow-A9FF0D7576AF11CAD967E5FEF0ABA44A" ]
+[1569487666.461][INFO]: [8409eb3afa1f48ae5e3b59573e244139] COMMAND SwitchToWindow {
+   "handle": "CDwindow-A9FF0D7576AF11CAD967E5FEF0ABA44A"
+}
+[1569487666.465][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1569487667.482][INFO]: [8409eb3afa1f48ae5e3b59573e244139] RESPONSE SwitchToWindow
+[1569487667.496][INFO]: [8409eb3afa1f48ae5e3b59573e244139] COMMAND Navigate {
+   "url": "http://yahoo.com"
+}
+[1569487667.496][INFO]: Waiting for pending navigations...
+[1569487667.502][INFO]: Done waiting for pending navigations. Status: ok
+[1569487670.666][INFO]: Waiting for pending navigations...
+[1569487682.163][INFO]: Done waiting for pending navigations. Status: ok
+[1569487682.163][INFO]: [8409eb3afa1f48ae5e3b59573e244139] RESPONSE Navigate
+[1569487682.196][INFO]: [8409eb3afa1f48ae5e3b59573e244139] COMMAND GetWindows {
+
+}
+[1569487682.200][INFO]: [8409eb3afa1f48ae5e3b59573e244139] RESPONSE GetWindows [ "CDwindow-663689498DC92FD70F64349F8D67C22E", "CDwindow-A9FF0D7576AF11CAD967E5FEF0ABA44A" ]
+[1569487682.218][INFO]: [8409eb3afa1f48ae5e3b59573e244139] COMMAND GetWindow {
+
+}
+[1569487682.218][INFO]: [8409eb3afa1f48ae5e3b59573e244139] RESPONSE GetWindow "CDwindow-A9FF0D7576AF11CAD967E5FEF0ABA44A"
+[1569487682.236][INFO]: [8409eb3afa1f48ae5e3b59573e244139] COMMAND ExecuteScript {
+   "args": [ "http://bing.com", "width=200,height=200" ],
+   "script": "window.open(arguments[0], '', arguments[1])"
+}
+[1569487682.236][INFO]: Waiting for pending navigations...
+[1569487682.238][INFO]: Done waiting for pending navigations. Status: ok
+[1569487682.331][INFO]: Waiting for pending navigations...
+[1569487682.350][INFO]: Done waiting for pending navigations. Status: ok
+[1569487682.350][INFO]: [8409eb3afa1f48ae5e3b59573e244139] RESPONSE ExecuteScript null
+[1569487682.383][INFO]: [8409eb3afa1f48ae5e3b59573e244139] COMMAND GetWindows {
+
+}
+[1569487682.390][INFO]: [8409eb3afa1f48ae5e3b59573e244139] RESPONSE GetWindows [ "CDwindow-663689498DC92FD70F64349F8D67C22E", "CDwindow-A9FF0D7576AF11CAD967E5FEF0ABA44A", "CDwindow-A4711444D15209C4F0851D8870FD6CA7" ]
+[1569487682.413][INFO]: [8409eb3afa1f48ae5e3b59573e244139] COMMAND SwitchToWindow {
+   "handle": "CDwindow-A4711444D15209C4F0851D8870FD6CA7"
+}
+[1569487682.424][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1569487683.434][INFO]: [8409eb3afa1f48ae5e3b59573e244139] RESPONSE SwitchToWindow
+[1569487683.443][INFO]: [8409eb3afa1f48ae5e3b59573e244139] COMMAND GetUrl {
+
+}
+[1569487683.443][INFO]: Waiting for pending navigations...
+[1569487685.999][INFO]: Done waiting for pending navigations. Status: ok
+[1569487686.028][INFO]: Waiting for pending navigations...
+[1569487686.028][INFO]: Done waiting for pending navigations. Status: ok
+[1569487686.028][INFO]: [8409eb3afa1f48ae5e3b59573e244139] RESPONSE GetUrl "https://www.bing.com/?toWww=1&redig=D61A3FF3BA7043ABAA40BAE8CD7DB843"
+[1569487686.037][INFO]: [8409eb3afa1f48ae5e3b59573e244139] COMMAND GetWindows {
+
+}
+[1569487686.040][INFO]: [8409eb3afa1f48ae5e3b59573e244139] RESPONSE GetWindows [ "CDwindow-663689498DC92FD70F64349F8D67C22E", "CDwindow-A9FF0D7576AF11CAD967E5FEF0ABA44A", "CDwindow-A4711444D15209C4F0851D8870FD6CA7" ]
+[1569487686.048][INFO]: [8409eb3afa1f48ae5e3b59573e244139] COMMAND GetWindow {
+
+}
+[1569487686.048][INFO]: [8409eb3afa1f48ae5e3b59573e244139] RESPONSE GetWindow "CDwindow-A4711444D15209C4F0851D8870FD6CA7"
+[1569487686.065][INFO]: [8409eb3afa1f48ae5e3b59573e244139] COMMAND SwitchToWindow {
+   "handle": "CDwindow-663689498DC92FD70F64349F8D67C22E"
+}
+[1569487686.177][INFO]: [8409eb3afa1f48ae5e3b59573e244139] RESPONSE SwitchToWindow
+[1569487686.196][INFO]: [8409eb3afa1f48ae5e3b59573e244139] COMMAND GetUrl {
+
+}
+[1569487686.196][INFO]: Waiting for pending navigations...
+[1569487686.197][INFO]: Done waiting for pending navigations. Status: ok
+[1569487686.201][INFO]: Waiting for pending navigations...
+[1569487686.202][INFO]: Done waiting for pending navigations. Status: ok
+[1569487686.202][INFO]: [8409eb3afa1f48ae5e3b59573e244139] RESPONSE GetUrl "https://www.google.com/?gws_rd=ssl"
+[1569487686.222][INFO]: [8409eb3afa1f48ae5e3b59573e244139] COMMAND GetUrl {
+
+}
+[1569487686.222][INFO]: Waiting for pending navigations...
+[1569487686.223][INFO]: Done waiting for pending navigations. Status: ok
+[1569487686.226][INFO]: Waiting for pending navigations...
+[1569487686.226][INFO]: Done waiting for pending navigations. Status: ok
+[1569487686.226][INFO]: [8409eb3afa1f48ae5e3b59573e244139] RESPONSE GetUrl "https://www.google.com/?gws_rd=ssl"
+[1569487686.256][INFO]: [8409eb3afa1f48ae5e3b59573e244139] COMMAND GetWindows {
+
+}
+[1569487686.263][INFO]: [8409eb3afa1f48ae5e3b59573e244139] RESPONSE GetWindows [ "CDwindow-663689498DC92FD70F64349F8D67C22E", "CDwindow-A9FF0D7576AF11CAD967E5FEF0ABA44A", "CDwindow-A4711444D15209C4F0851D8870FD6CA7" ]
+[1569487686.278][INFO]: [8409eb3afa1f48ae5e3b59573e244139] COMMAND GetWindow {
+
+}
+[1569487686.278][INFO]: [8409eb3afa1f48ae5e3b59573e244139] RESPONSE GetWindow "CDwindow-663689498DC92FD70F64349F8D67C22E"
+[1569487686.295][INFO]: [8409eb3afa1f48ae5e3b59573e244139] COMMAND SwitchToWindow {
+   "handle": "CDwindow-663689498DC92FD70F64349F8D67C22E"
+}
+[1569487686.301][INFO]: [8409eb3afa1f48ae5e3b59573e244139] RESPONSE SwitchToWindow
+[1569487686.310][INFO]: [8409eb3afa1f48ae5e3b59573e244139] COMMAND GetUrl {
+
+}
+[1569487686.310][INFO]: Waiting for pending navigations...
+[1569487686.311][INFO]: Done waiting for pending navigations. Status: ok
+[1569487686.315][INFO]: Waiting for pending navigations...
+[1569487686.316][INFO]: Done waiting for pending navigations. Status: ok
+[1569487686.316][INFO]: [8409eb3afa1f48ae5e3b59573e244139] RESPONSE GetUrl "https://www.google.com/?gws_rd=ssl"
+[1569487686.332][INFO]: [8409eb3afa1f48ae5e3b59573e244139] COMMAND SwitchToWindow {
+   "handle": "CDwindow-A9FF0D7576AF11CAD967E5FEF0ABA44A"
+}
+[1569487686.394][INFO]: [8409eb3afa1f48ae5e3b59573e244139] RESPONSE SwitchToWindow
+[1569487686.477][INFO]: [8409eb3afa1f48ae5e3b59573e244139] COMMAND GetUrl {
+
+}
+[1569487686.477][INFO]: Waiting for pending navigations...
+[1569487686.498][INFO]: Done waiting for pending navigations. Status: ok
+[1569487686.503][INFO]: Waiting for pending navigations...
+[1569487686.505][INFO]: Done waiting for pending navigations. Status: ok
+[1569487686.506][INFO]: [8409eb3afa1f48ae5e3b59573e244139] RESPONSE GetUrl "https://in.yahoo.com/?p=us"
+[1569487686.521][INFO]: [8409eb3afa1f48ae5e3b59573e244139] COMMAND GetUrl {
+
+}
+[1569487686.521][INFO]: Waiting for pending navigations...
+[1569487686.522][INFO]: Done waiting for pending navigations. Status: ok
+[1569487686.525][INFO]: Waiting for pending navigations...
+[1569487686.526][INFO]: Done waiting for pending navigations. Status: ok
+[1569487686.526][INFO]: [8409eb3afa1f48ae5e3b59573e244139] RESPONSE GetUrl "https://in.yahoo.com/?p=us"
+[1569487686.534][INFO]: [8409eb3afa1f48ae5e3b59573e244139] COMMAND Quit {
+
+}
+[1569487686.786][INFO]: [8409eb3afa1f48ae5e3b59573e244139] RESPONSE Quit
